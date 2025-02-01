@@ -6,6 +6,11 @@ Modern automotive infotainment systems rely on **accurate and up-to-date mapping
 
 ## Problem Statement
 - Mapping services such as **Google Maps, HERE Maps, and Mappls** provide different POI datasets, leading to inconsistencies.
+- Google Maps is considered as the reference standard, and data from HERE Maps and Mappls is compared against it to identify discrepancies.
+- Manual comparison and validation of POI data across platforms was time-consuming and inefficient.
+- With the rise of **EV adoption**, ensuring the availability and accuracy of **EV charging station** data is critical.
+- A scalable and automated solution was needed to **cross-verify and optimize mapping data integration**.
+- Mapping services such as **Google Maps, HERE Maps, and Mappls** provide different POI datasets, leading to inconsistencies.
 - Manual comparison and validation of POI data across platforms was time-consuming and inefficient.
 - With the rise of **EV adoption**, ensuring the availability and accuracy of **EV charging station** data is critical.
 - A scalable and automated solution was needed to **cross-verify and optimize mapping data integration**.
@@ -23,6 +28,10 @@ The system architecture consists of the following key components:
 - **Cloud & Data Storage:** AWS S3, Elastic Search, Kibana
 
 ## Key Features
+- **Automated Data Extraction:** Gathers POI data from **Google Maps (reference), HERE Maps, and Mappls**.
+- **Scalable Data Comparison System:** Compares **EV charging stations** across multiple platforms using Google Maps as the standard.
+- **Infotainment System Enhancement:** Improves map accuracy for **OEM navigation, route planning, and POI recommendations**.
+- **Real-Time Data Visualization:** Uses **Kibana dashboards** for **data validation and reporting**.
 - **Automated Data Extraction:** Gathers POI data from **Google Maps, HERE Maps, and Mappls**.
 - **Scalable Data Comparison System:** Compares **EV charging stations** across multiple platforms.
 - **Infotainment System Enhancement:** Improves map accuracy for **OEM navigation, route planning, and POI recommendations**.
