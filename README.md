@@ -28,6 +28,17 @@ The system architecture consists of the following key components:
 - **Cloud & Data Storage:** AWS S3, Elastic Search, Kibana
 
 ## Key Features
+- Developed and implemented all **automated scripts** for data extraction, comparison, and validation.
+- **Automated Data Extraction:** Gathers POI data from **Google Maps (reference), HERE Maps, and Mappls**.
+- **Scalable Data Comparison System:** Compares **EV charging stations** across multiple platforms using Google Maps as the standard.
+- **Infotainment System Enhancement:** Improves map accuracy for **OEM navigation, route planning, and POI recommendations**.
+- **Real-Time Data Visualization:** Uses **Kibana dashboards** for **data validation and reporting**.
+- **Direct Output Generation:** The system automatically provides output in **Excel and JSON formats** for seamless integration and analysis.
+- Developed and implemented all **automated scripts** for data extraction, comparison, and validation.
+- **Automated Data Extraction:** Gathers POI data from **Google Maps (reference), HERE Maps, and Mappls**.
+- **Scalable Data Comparison System:** Compares **EV charging stations** across multiple platforms using Google Maps as the standard.
+- **Infotainment System Enhancement:** Improves map accuracy for **OEM navigation, route planning, and POI recommendations**.
+- **Real-Time Data Visualization:** Uses **Kibana dashboards** for **data validation and reporting**.
 - **Automated Data Extraction:** Gathers POI data from **Google Maps (reference), HERE Maps, and Mappls**.
 - **Scalable Data Comparison System:** Compares **EV charging stations** across multiple platforms using Google Maps as the standard.
 - **Infotainment System Enhancement:** Improves map accuracy for **OEM navigation, route planning, and POI recommendations**.
